@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+  <rect width="1800" height="1200" fill="#ffffff"/>
+  <defs>
+    <style>
+      .phone { fill:#fff; stroke:#111; stroke-width:2; }
+      .muted { fill:#8b8f94; font-size:24px; font-family:Arial, sans-serif; }
+      .text { fill:#222; font-size:28px; font-family:Arial, sans-serif; font-weight:700; }
+      .small { fill:#333; font-size:20px; font-family:Arial, sans-serif; }
+      .button { fill:#04a995; }
+      .buttonText { fill:#fff; font-size:24px; font-family:Arial, sans-serif; font-weight:700; }
+      .ghost { fill:#e9ecef; }
+      .green { fill:#06c7a8; }
+      .card { fill:#f1f4f3; }
+      .line { stroke:#e3e5e7; stroke-width:2; }
+      .red { fill:none; stroke:#c92c1f; stroke-width:7; stroke-linecap:round; stroke-linejoin:round; }
+      .redbox { fill:none; stroke:#c92c1f; stroke-width:6; rx:8; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10" fill="none" stroke="#c92c1f" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <rect class="phone" x="70" y="70" width="470" height="1010"/>
+  <text class="text" x="130" y="125">9:41</text>
+  <text class="text" x="430" y="125">⌂ ☰</text>
+  <text class="text" x="110" y="195">←</text>
+  <circle class="green" cx="305" cy="350" r="38"/>
+  <path d="M282 348 L302 368 L333 329" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="text" x="235" y="470">김아임 님에게</text>
+  <text class="text" x="175" y="515">100,000원을 보냈어요</text>
+  <rect class="card" x="145" y="575" width="310" height="160" rx="18"/>
+  <text class="small" x="210" y="630">'경조사메모지'에 등록할까요?</text>
+  <rect fill="#fff" stroke="#d8dcdf" x="170" y="650" width="170" height="64" rx="10"/>
+  <text class="small" x="195" y="690">🎉 축의금⌄</text>
+  <rect fill="#fff" stroke="#04a995" x="350" y="650" width="80" height="64" rx="10"/>
+  <text class="small" x="373" y="690" fill="#04a995">등록</text>
+  <rect class="redbox" x="158" y="625" width="190" height="105"/>
+  <rect class="redbox" x="348" y="625" width="94" height="105"/>
+  <rect class="ghost" x="100" y="975" width="210" height="70" rx="12"/>
+  <text class="muted" x="160" y="1018">계속이체</text>
+  <rect class="button" x="320" y="975" width="190" height="70" rx="12"/>
+  <text class="buttonText" x="395" y="1018">확인</text>
+
+  <rect fill="#666" x="610" y="70" width="470" height="1010"/>
+  <path fill="#fff" d="M610 650 Q610 625 635 625 H1055 Q1080 625 1080 650 V1080 H610 Z"/>
+  <text class="text" x="770" y="705">카테고리 선택</text>
+  <text class="text" x="1025" y="705">×</text>
+  <text class="text" x="650" y="810">🎉</text>
+  <text class="small" x="705" y="807">축의금</text>
+  <line class="line" x1="640" y1="845" x2="1050" y2="845"/>
+  <text class="text" x="650" y="895">◼</text>
+  <text class="small" x="705" y="895">부의금</text>
+  <line class="line" x1="640" y1="930" x2="1050" y2="930"/>
+  <text class="text" x="650" y="980">💵</text>
+  <text class="small" x="705" y="980">용돈</text>
+  <line class="line" x1="640" y1="1015" x2="1050" y2="1015"/>
+  <text class="text" x="650" y="1065">♥</text>
+  <text class="small" x="705" y="1065">기타</text>
+
+  <rect class="phone" x="1150" y="70" width="470" height="1010"/>
+  <text class="text" x="1210" y="125">9:41</text>
+  <text class="text" x="1510" y="125">⌂ ☰</text>
+  <text class="text" x="1190" y="195">←</text>
+  <circle class="green" cx="1385" cy="350" r="38"/>
+  <path d="M1362 348 L1382 368 L1413 329" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="text" x="1315" y="470">김아임 님에게</text>
+  <text class="text" x="1255" y="515">100,000원을 보냈어요</text>
+  <rect class="card" x="1225" y="575" width="310" height="160" rx="18"/>
+  <text class="small" x="1290" y="630">'경조사메모지'에 등록했어요</text>
+  <rect fill="#fff" stroke="#d8dcdf" x="1290" y="655" width="170" height="64" rx="4"/>
+  <text class="small" x="1325" y="695">내역 확인하기 ›</text>
+  <rect class="redbox" x="1290" y="655" width="170" height="64"/>
+  <rect class="ghost" x="1180" y="975" width="210" height="70" rx="12"/>
+  <text class="muted" x="1240" y="1018">계속이체</text>
+  <rect class="button" x="1400" y="975" width="190" height="70" rx="12"/>
+  <text class="buttonText" x="1475" y="1018">확인</text>
+
+  <path class="red" marker-end="url(#arrow)" d="M435 730 C520 900 640 970 805 980 C865 980 890 940 890 920"/>
+  <path class="red" marker-end="url(#arrow)" d="M390 730 C470 1060 920 1120 1385 1080 C1465 1072 1495 1030 1495 1015"/>
+</svg>
