@@ -1,0 +1,4 @@
+interface:
+  display_name: "Service UT Simulator"
+  short_description: "화면 flow와 설명을 바탕으로 서비스 UT를 시뮬레이션합니다."
+  default_prompt: "Use $service-ut-simulator to review this service flow and produce a UT report plus 로우데이터 preview."
